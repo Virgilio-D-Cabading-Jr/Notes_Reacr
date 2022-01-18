@@ -41,6 +41,11 @@ export default App;
 <Link to="/about">About</Link>
 ```
 
+7. Import Switch and Route into App.js
+```
+import { Switch, Route } from "react-router-dom";
+```
+
 7. How to add a Non-Breaking-Space
 ```
 &nbsp;
