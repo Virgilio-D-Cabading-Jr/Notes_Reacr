@@ -75,6 +75,20 @@ const About = (props) => {
 ```
     <BrowserRouter>
       <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </BrowserRouter>
+```
+
+11. Use "exact keyword in Route to make sure only that route will fire that component
+```
+    <BrowserRouter>
+      <Switch>
         <Route exact path="/">
           <Home />
         </Route>
