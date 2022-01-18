@@ -61,6 +61,30 @@ const About = (props) => {
 }
 ```
 
+9. In App.js, Add Switch Around Each Component
+```
+    <BrowserRouter>
+      <Switch>
+          <Home />
+          <About />
+      </Switch>
+    </BrowserRouter>
+```
+
+10. Wrap each component with the Route that specifies that Component
+```
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+      </Switch>
+    </BrowserRouter>
+```
+
 7. How to add a Non-Breaking-Space
 ```
 &nbsp;
