@@ -46,6 +46,21 @@ export default App;
 import { Switch, Route } from "react-router-dom";
 ```
 
+8. Add Component
+```
+const Home = (props) => {
+  return (
+    <h1 style={{color: "red"}}>Home Component</h1>
+  );
+}
+    
+const About = (props) => {
+  return (
+    <h1 style={{color: "blue"}}>About Component</h1>
+  );
+}
+```
+
 7. How to add a Non-Breaking-Space
 ```
 &nbsp;
